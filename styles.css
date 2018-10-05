@@ -58,8 +58,8 @@ h4 {
   color: #0b7ab2;
 }
 
-div.column img{
-  
+.icon{
+  max-width: 250px;
 }
 
 .button{
