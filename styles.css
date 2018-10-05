@@ -2,12 +2,14 @@
 
 body {
   font-family: "Tajawal", sans-serif;
+  box-sizing: border-box;
 }
 
 header {
+  background-color:black;
   background: url(/img/bg.png);
   background-size: cover;
-  height: 85vh;
+  height: 80vh;
   width: 100%;
 }
 
@@ -22,6 +24,11 @@ header h1.tagline {
 
 .navbar{
   background:rgba(0,0,0,.6);
+  color:white;
+}
+
+.navbar-item{
+  color:white
 }
 
 .bold {
@@ -31,6 +38,7 @@ header h1.tagline {
 section {
   margin-bottom: 60px;
 }
+
 main {
   margin: 80px auto;
   max-width: 85%;
@@ -60,18 +68,14 @@ h4 {
 }
 
 .icons{
-  max-width: 500px;
+  transform: scale(.8);
 }
+
 
 .button{
   font-size: 18px;
   margin:50px auto;
   max-width:150px;
-}
-
-.graphic{
-  height:100px;
-  float:right;
 }
 
 footer{
