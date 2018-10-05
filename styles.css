@@ -6,6 +6,7 @@ body {
 
 header {
   background: url(/img/bg.png);
+  background-size: cover;
   height: 85vh;
   width: 100%;
 }
@@ -58,8 +59,8 @@ h4 {
   color: #0b7ab2;
 }
 
-.icon{
-  max-width: 250px;
+.icons{
+  max-width: 500px;
 }
 
 .button{
