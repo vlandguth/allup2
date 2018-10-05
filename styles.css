@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background: black;
+  background: url(/img/bg.png);
   height: 85vh;
   width: 100%;
 }
