@@ -68,6 +68,11 @@ h4 {
   color: #0b7ab2;
 }
 
+@media screen and (max-width: 1087px)
+.navbar-menu {
+    background-color: rgba(0,0,0,0.8);
+}
+
 .vector{
   height:150px;
   align-self: flex-end;
