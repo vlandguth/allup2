@@ -68,10 +68,10 @@ h4 {
   color: #0b7ab2;
 }
 
-.icons{
-  transform: scale(.8);
+.vector{
+  height:150px;
+  align-self: flex-end;
 }
-
 
 .button{
   font-size: 18px;
