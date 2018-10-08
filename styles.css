@@ -16,8 +16,8 @@ header {
 header h1.tagline {
   margin: 0 auto;
   max-width: 60%;
-  font-size: 2.5em;
-  padding-top: 225px;
+  font-size: 2.8em;
+  padding-top: 160px;
   text-align: center;
   color: white;
 }
@@ -68,20 +68,30 @@ h4 {
   color: #0b7ab2;
 }
 
-@media screen and (max-width: 1087px)
+@media screen and (max-width: 1087px){
 .navbar-menu {
     background-color: rgba(0,0,0,0.8);
+}
+}
+
+@media screen and (max-width: 769px){
+.columns:not(.is-desktop) {
+  margin-bottom: 15%;
+  }
 }
 
 .vector{
   height:150px;
-  align-self: flex-end;
+  align-self: center;
 }
 
 .button{
+  color: #0b7ab2;
   font-size: 18px;
   margin:50px auto;
   max-width:150px;
+  border: 1px solid #0b7ab2;
+  padding-top: .75em;
 }
 
 footer{
