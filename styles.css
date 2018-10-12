@@ -7,7 +7,7 @@ body {
 
 header {
   background-color:black;
-  background: url(./img/bg.png);
+  background: url(./img/bg-light.png);
   background-size: cover;
   height: 80vh;
   width: 100%;
@@ -19,16 +19,20 @@ header h1.tagline {
   font-size: 2.8em;
   padding-top: calc(100px + 10vw);
   text-align: center;
-  color: white;
 }
 
 .navbar{
-  background:rgba(0,0,0,.6);
+  background:rgba(0,0,0,.45);
   color:white;
 }
 
 .navbar-item{
   color:white
+}
+
+.navbar-item img{
+  max-height:none;
+  width:150px;
 }
 
 .bold {
