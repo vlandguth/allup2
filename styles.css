@@ -84,7 +84,7 @@ h4 {
   }
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 460px){
   header h1.tagline{
     font-size: 2.2em;
   }
