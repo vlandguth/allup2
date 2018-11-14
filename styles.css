@@ -49,8 +49,8 @@ header h1.tagline {
   font-weight: bold;
 }
 
-.columns{
-  margin-top:-40px;
+.bios{
+  margin-top:60px;
 }
 
 section {
@@ -105,6 +105,17 @@ h4 {
   header h1.tagline{
     font-size: 2.3em;
     max-width:60%;
+  }
+}
+
+@media screen and (min-width: 600px), print{
+  .column.is-2, .column.is-2-tablet {
+      flex: none;
+      width: 16.66667%;
+  }
+
+  .columns:not(.is-desktop) {
+    display: flex;
   }
 }
 
